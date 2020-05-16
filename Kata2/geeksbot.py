@@ -1,22 +1,22 @@
-from telegram.ext import Updater, commandHandler
+from telegram.ext import Updater, CommandHandler
 
 def main():
     # Instanciamos el updater
     updater = Updater(token=open("./bot_token").read(), use_context=True)
     # Añadiendo un manejador al comando /start
-    updater.dispatcher.add_handler(commandHandler("start", start))
+    updater.dispatcher.add_handler(CommandHandler("start", start))
 
     # Añadir manejador para el comando /repite
-    updater.dispatcher.add_handler(commandHandler("repite", repite))
+    updater.dispatcher.add_handler(CommandHandler("repite", repite))
 
     #Añadir un manejador para el comando /suma
-    updater.dispatcher.add_handler(commandHandler("suma", suma))
+    updater.dispatcher.add_handler(CommandHandler("suma", suma))
 
     # Empezamos a pedir notificaciones a Telegram
-    Updater.start_polling()
+    updater.start_polling()
 
     # Capturamos señales de parada
-    Updater.idle()
+    updater.idle()
 
 def start(update, context):
     update.message.reply_text("Hola soy un bot")
