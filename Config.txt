@@ -1,6 +1,6 @@
 
 Usuario github en Visual code. En terminal:
-git config --global user.email " rubito69_14@hotmail.com"
+git config --global user.email "rubito69_14@hotmail.com"
 git config --global user.name "Nombre"
 
 Hacer push de los commit a la nube de git (Ver en repositorio):
@@ -21,3 +21,24 @@ Pasos:
 10.- Hacer un commit en git
 
 Extra.- Git log (para ver los commit realizados).
+
+Kata1 - Javi Palanca - Inicio python:
+https://github.com/GeeksHubsAcademy/FundamentosPython.git
+
+Kata2 Bot Telegram:
+
+solucion: https://github.com/GeeksHubsAcademy/TelegramBot
+
+Nombre: BotHammer
+
+Done! Congratulations on your new bot. You will find it at t.me/loreniusbot. You can now add a description, about section and profile picture for your bot, see /help for a list of commands. By the way, when you've finished creating your cool bot, ping our Bot Support if you want a better username for it. Just make sure the bot is fully operational before you do this.
+
+Use this token to access the HTTP API:
+1237801741:AAG-R_XGRP51CWwGBhGmQRw3bNUO2hVur3Y
+Keep your token secure and store it safely, it can be used by anyone to control your bot.
+
+For a description of the Bot API, see this page: https://core.telegram.org/bots/api
+
+
+Kata3 - Pong
+https://github.com/GeeksHubsAcademy/PongPygame
