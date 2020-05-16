@@ -1,0 +1,23 @@
+
+Usuario github en Visual code. En terminal:
+git config --global user.email " rubito69_14@hotmail.com"
+git config --global user.name "Nombre"
+
+Hacer push de los commit a la nube de git (Ver en repositorio):
+git remote add origin https://github.com/xHammercillox/Kata1.git
+git push -u origin master
+
+
+Pasos:
+1.- Instalar python 3.8
+2.- Instalar Git 2.25
+3.- Instalar Visual Strudio Code (VSC)
+4.- Crear carpeta para las katas (Hackathon)
+5.- Abirlo con VSC (File -> Open Folder)
+6.- Crear repositorio de git (Git init 3º icono del VSC con boton)
+7.- Crear carpetas de Kata 1 al 4 con main.py
+8.- git config --global user.email " rubito69_14@hotmail.com"
+9.- git config --global user.name "Nombre"
+10.- Hacer un commit en git
+
+Extra.- Git log (para ver los commit realizados).
