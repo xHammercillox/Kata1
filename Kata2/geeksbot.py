@@ -29,7 +29,6 @@ def suma(update, context):
     # args = [2, 2] Esto es la suma
     resultado = int(context.args[0]) + int(context.args[1])
     resultado = int(resultado)
-    update.message.reply_text("El resultado es: " +resultado)
-
+    update.message.reply_text(int)("El resultado es: " +resultado)
 
 main()
